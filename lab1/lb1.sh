@@ -107,16 +107,16 @@ echo "Вывод полного имени рабочего каталога"
 
 ls
 echo "ls"
-ls /home/ubuntu
-echo "ls /home/ubuntu"
-echo "Вывод ls и ls /home/ubuntu совпадают"
+ls /home/os1/os/lab1
+echo "ls /home/os1/os/lab1"
+echo "Вывод ls и ls /home/os1/os/lab1 совпадают"
 
 ls /
 echo "ls /"
 echo "Произведен вывод содержимого корневой директории"
 
-ls -l
-echo "ls -l"
+ls -l /
+echo "ls -l /"
 echo "Произведен вывод содержимого корневой директории с ключем l"
 
 cd ..
@@ -265,7 +265,7 @@ cmp prog.c my_open.c
 echo "cmp prog.c my_open.c"
 
 cmp my_open prog.c
-echo "cmp my_open prog.c"
+echo "cmp my_open prog"
 
 echo "Задание 7"
 echo "Сравните prog.c и my_open.c с помощью diff:"
